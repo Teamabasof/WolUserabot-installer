@@ -48,7 +48,7 @@ def hgit (connect, repo, appname):
     else:
         remote = repo.create_remote("heroku", giturl)
     try:
-        remote.push(refspec="HEAD:refs/heads/master", force=True)
+        remote.push(refspec="HEAD:refs/heads/main", force=True)
     except Exception as e:
         hata(LANG['ERROR'] + str(e))
 
@@ -107,14 +107,14 @@ if __name__ == "__main__":
     basarili(LANG['SUCCESS_APP'])
     onemli(LANG['DOWNLOADING'])
 
-    SyperStringKey = "SakirBey1"
-    GiperStringKey = "HerlockUserBot/"
+    SyperStringKey = "HerlockUserBot"
+    GiperStringKey = "SakirBey1/"
     InvalidKey = "http://github.com/" 
     str1 = InvalidKey+GiperStringKey+SyperStringKey
 
-    if os.path.isdir("./Herlock/"):
-        rm_r("./Herlock/")
-    repo = Repo.clone_from(str1,"./Herlock/", branch="master")
+    if os.path.isdir("./HerlockUserBot/"):
+        rm_r("./HerlockUserBot/")
+    repo = Repo.clone_from(str1,"./HerlockUserBot/", branch="main")
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
     config = app.config()
@@ -147,7 +147,7 @@ if __name__ == "__main__":
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
     config['UPSTREAM_REPO_URL'] = "https://github.com/SakirBey1/HerlockUserBot"
-    config['SEVGILI'] = "None"
+
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
 
@@ -190,10 +190,8 @@ if __name__ == "__main__":
                 basarili(LANG['SUCCESS_DEFAULTNAME'])
 
                 
-
-
             
             bilgi(f"[1] {LANG['NO_SUP']}\n[2] {LANG['NO_LOG']}\n\n[3] {LANG['NO_PMAUTO']}\n\n[4] {LANG['NO_DEFAULTNAME']}\n\n[5] {LANG['CLOSE']}")
             
             Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4", "5"], default="5")
-        basarili(LANG['SEEYOU'])
+        basarili(LANG['GÖRÜŞÜRÜZ'])
