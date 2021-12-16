@@ -2,4 +2,7 @@
 
 UserBot kurulum reposudur 
 
-<img src="https://imgyukle.com/f/2021/12/15/kfez7G.png" width="80" height="50">
+
+# UserBot Repo 
+
+[![İnstaller](https://imgyukle.com/f/2021/12/15/kfez7G.png)](https://github.com/SakirBey1/HerlockUserBot)
