@@ -48,7 +48,7 @@ def hgit (connect, repo, appname):
     else:
         remote = repo.create_remote("heroku", giturl)
     try:
-        remote.push(refspec="HEAD:refs/heads/main", force=True)
+        remote.push(refspec="HEAD:refs/heads/master", force=True)
     except Exception as e:
         hata(LANG['ERROR'] + str(e))
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
     if os.path.isdir("./HerlockUserBot/"):
         rm_r("./HerlockUserBot/")
-    repo = Repo.clone_from(str1,"./HerlockUserBot/", branch="main")
+    repo = Repo.clone_from(str1,"./HerlockUserBot/", branch="master")
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
     config = app.config()
