@@ -105,7 +105,7 @@ def main():
                 "app_shortname": app_shortname,
                 "app_url": "",
                 "app_platform": choice(["ios", "web", "desktop"]),
-                "app_desc": choice(["madelineproto", "pyrogram", "telethon", "", "web", "cli"])
+                "app_desc": choice(["herlockuserbot", "pyrogram", "telethon", "", "web", "cli"])
             }
             app = requests.post("https://my.telegram.org/apps/create", data=AppInfo, cookies=cookie).text
 
@@ -130,7 +130,7 @@ def main():
                     "app_shortname": 'herlockbot',
                     "app_url": "",
                     "app_platform": choice(["ios", "web", "desktop"]),
-                    "app_desc": choice(["madelineproto", "pyrogram", "telethon", "", "web", "cli"])
+                    "app_desc": choice(["herlockuserbot", "pyrogram", "telethon", "", "web", "cli"])
                 }
                 app = requests.post("https://my.telegram.org/apps/create", data=AppInfo, cookies=cookie).text
                 newapp = requests.get("https://my.telegram.org/apps", cookies=cookie).text
