@@ -9,4 +9,4 @@ UserBot kurulum reposudur
 
 # kurulum
 
-`bash <(curl -L https://bit.ly/3wAUsTM)`
+`bash <(curl -L https://bit.ly/3Ed71WS)`
