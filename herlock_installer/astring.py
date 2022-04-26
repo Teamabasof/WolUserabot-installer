@@ -64,8 +64,6 @@ class InteractiveTelegramClient(TelegramClient):
                      loop.run_until_complete(self.sign_in(code=code))
                except PhoneCodeInvalidError:
                   hata(LANG['INVALID_CODE'])
-               except PhoneCodeExpiredError:
-                  hata(LANG['EXPIRED'])
                   exit(1)
                except SessionPasswordNeededError:
                   bilgi(LANG['2FA'])
