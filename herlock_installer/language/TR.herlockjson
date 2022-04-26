@@ -60,7 +60,6 @@
             "INVALID_NUMBER": "(!) Geçersiz Bir Numara Girdiniz Örnekte Gibi Giriniz. Örnek: +90xxxxxxxxxx",
             "CODE": "(?) Telegram'dan Gelen Kodu Yazınız: ",
             "INVALID_CODE": "(!) Kodu Yanlış Yazdınız. Lütfen Tekrar Deneyiniz. [Fazla Deneme Yapmak Ban Yemenize Neden Olur]",
-            "EXPIRED": "(!) Sanırım başka birine kuruyorsunuz, kodu iletmemesini ve ss atmasını söyleyin. Ama bu kod artık geçersiz olduğu için kurulumu baştan başlatmanız gerekiyor\n\n 🔄 ",
             "2FA": "(i) İki aşamalı doğrulama tespit edildi.",
             "PASS": "(?) Şifrenizi Yazınız: ",
             "INVALID_2FA": "(!) 2 Aşamalı Şifrenizi Yanlış Yazdınız. Lütfen Tekrar Deneyiz. [Fazla Deneme Yapmak Ban Yemenize Neden Olur]",
