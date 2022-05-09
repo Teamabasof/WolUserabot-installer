@@ -68,6 +68,6 @@ echo -e $BOSLUK
 echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd WolfUserabot-installer
+cd WolUserabot-installer
 pip install -r requirements.txt
 python -m herlock_installer
