@@ -1,17 +1,17 @@
-SAKIR="HERLOCK USER BOT"
-SAKIR+="\nHERLOCK USER BOT"
-SAKIR+="\nHERLOCK USER BOT"
-SAKIR+="\nHERLOCK USER BOT"
-SAKIR+="\nHERLOCK USER BOT"
-SAKIR+="\nHERLOCK USER BOT"
-SAKIR+="\n✨HERLOCK 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐄𝐑✨"
+SAKIR="WOLF USER BOT"
+SAKIR+="\nWOLF USER BOT"
+SAKIR+="\nWOLF USER BOT"
+SAKIR+="\nWOLF USER BOT"
+SAKIR+="\nWOLF USER BOT"
+SAKIR+="\nWOLF USER BOT"
+SAKIR+="\n✨WOLF 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐄𝐑✨"
 MESAJ="\n📱Herlock UserBot İnstaller Android Kurulum📱"
 MESAJ+="\nBizi Tercih Ettiğiniz İçin Teşekkür Ederiz"
 MESAJ+="\nBüyüdükçe Gelişmeye Geliştikçe Büyümeye Devam Ediyoruz"
 MESAJ+="\n "
-MESAJ+="\n📣 GÜNCELLEME DUYURU; @HerlockUserBot1"
-MESAJ+="\n🆘 YARDIM GRUBU; @HerlockUserBot1"
-MESAJ+="\n🧩 PLUGIN PAYLAŞIM; @HerlockUserBot1"
+MESAJ+="\n📣 GÜNCELLEME DUYURU; @WolfUserBott"
+MESAJ+="\n🆘 YARDIM GRUBU; @wolfsupport1"
+MESAJ+="\n🧩 PLUGIN PAYLAŞIM; @wolfplugin"
 MESAJ+="\n📲 WHATSAPP BOTU; Yakında...!"
 MESAJ+="\n "
 MESAJ+="\n❗İşlem Bitene Kadar Uygulamayı Terk Etmeyin❗"
@@ -56,10 +56,10 @@ clear
 echo -e $SAKIR
 echo -e $MESAJ
 echo -e $BOSLUK
-echo "⌛ HERLOCK İNDİRİYORUM ⌛"
-echo "⌛ I DOWNLOAD THE HERLOCK ⌛"
+echo "⌛ WOLF İNDİRİYORUM ⌛"
+echo "⌛ I DOWNLOAD THE WOLF ⌛"
 echo -e $BOSLUK
-git clone https://github.com/sakirbey1/herlockinstaller
+git clone https://github.com/Teamabasof/WolUserabot-installer
 clear
 echo -e $SAKIR
 echo -e $BOSLUK
@@ -68,6 +68,6 @@ echo -e $BOSLUK
 echo "⌛ GEREKSİNİMLERİ KURUYORUM..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd herlockinstaller
+cd WolfUserabot-installer
 pip install -r requirements.txt
 python -m herlock_installer
