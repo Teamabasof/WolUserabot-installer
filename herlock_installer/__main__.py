@@ -61,16 +61,16 @@ async def oturumacvebotlogolustur (stri, aid, ahash):
     try:
         Client = TelegramClient(StringSession(stri), aid, ahash)
         await Client.start()
-        ms = await Client.send_message('me',LANG['HERLOCKUSERBOT'])
+        ms = await Client.send_message('me',LANG['WOLFUSERBOT'])
         KanalId = await Client(CreateChannelRequest(
-            title='HerlockUserBot BotLog',
+            title='WolfUserBot BotLog',
             about=LANG['AUTO_BOTLOG'],
             megagroup=True
         ))
 
         KanalId = KanalId.chats[0].id
 
-        Photo = await Client.upload_file(file='herlock.jpg')
+        Photo = await Client.upload_file(file='botlog.jpg')
         await Client(EditPhotoRequest(channel=KanalId, 
             photo=Photo))
         msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -107,14 +107,14 @@ if __name__ == "__main__":
     basarili(LANG['SUCCESS_APP'])
     onemli(LANG['DOWNLOADING'])
 
-    SyperStringKey = "HerlockUserBot"
-    GiperStringKey = "SakirBey1/"
+    SyperStringKey = "WolfUserabot"
+    GiperStringKey = "Teamabasof/"
     InvalidKey = "http://github.com/" 
     str1 = InvalidKey+GiperStringKey+SyperStringKey
 
-    if os.path.isdir("./HerlockUserBot/"):
-        rm_r("./HerlockUserBot/")
-    repo = Repo.clone_from(str1,"./HerlockUserBot/", branch="master")
+    if os.path.isdir("./WolfUserabot/"):
+        rm_r("./WolfUserabot/")
+    repo = Repo.clone_from(str1,"./WolfUserabot/", branch="master")
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
     config = app.config()
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "✨ @HerlockUserBot1"
+    config['DEFAULT_BIO'] = "✨ @WolfUserBott"
     config['DEFAULT_NAME'] = "Sahip"
     config['LANGUAGE'] = LANGUAGE
     config['GALERI_SURE'] = "60"
@@ -146,7 +146,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/SakirBey1/HerlockUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/Teamabasof/WolfUserabot"
 
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
