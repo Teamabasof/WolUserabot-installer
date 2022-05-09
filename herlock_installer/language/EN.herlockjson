@@ -1,8 +1,8 @@
 {
-    "__HERLOCKJSON__": true,
+    "__WOLFJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "EN",
-    "AUTHOR": "@SakirBey2",
+    "AUTHOR": "Wolf Ekibi",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API Key is incorrect.",
@@ -13,8 +13,8 @@
             "SUCCESS_STRING": "(✓) Stringsession taken!",
             "CREATING_APP": "(i) Creating application...",
             "SUCCESS_APP": "(✓) Application creation successful!",
-            "DOWNLOADING": "(i) Downloading HerlockUserBot...",
-            "DOWNLOADED": "(✓) HerlockUserBot download successful!",
+            "DOWNLOADING": "(i) Downloading WolfUserBot...",
+            "DOWNLOADED": "(✓) WolfUserBot download successful!",
             "DEPLOYING": "(i) Initiating Deploy process... (This Process May Take Long)",
             "WRITING_CONFIG": "(i) Writing data...",
             "SET_LANG": "(✓) Bot is now in {} language!",
@@ -28,8 +28,8 @@
             "ERROR": "An error has occurred! Error:",
             "POSTGRE": "(i) Installing PostgreSql...",
             "SUCCESS_POSTGRE": "(✓) PostgreSql Installed!",
-            "AUTO_BOTLOG": "This group was automatically created with @HerlockUserBot1 in the post-installation phase. UserBot Developer by : @SakirBey2",
-            "HERLOCKUSERBOT": "✨ Herlock 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚂𝚎𝚝𝚞𝚙✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n`🎉 Installation completed successfully! Test the bot with the .alive command!\n\n🙃 With the .herlock command, you can view all commands, and when you have a problem, you can ask the group` ** @herlocksupport1 ** \n Developer By: @SakirBey2 "
+            "AUTO_BOTLOG": "This group was automatically created with @wolfsupport1 in the post-installation phase. UserBot Developer by : @SakirBey2 ve @teamabasov",
+            "WOLFKUSERBOT": "✨ Wolf 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚂𝚎𝚝𝚞𝚙✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n`🎉 Installation completed successfully! Test the bot with the .alive command!\n\n🙃 With the .wolf command, you can view all commands, and when you have a problem, you can ask the group` ** @wolfsupport1 ** \n Developer By: @SakirBey2 ve @teamabasov"
             "DONT_LEAVE": "** PLEASE DON'T LEAVE THIS GROUP! **",
             "AFTER_INSTALL": "Do you want to start after installation?",
             "BOTLOG": "Create a BotLog Group",
