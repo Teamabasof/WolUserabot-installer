@@ -26,4 +26,4 @@ def importlang ():
     return COUNTRY, LANGUAGE, TZ
 
 COUNTRY, LANGUAGE, TZ = importlang()
-LANG = loads(open(f"./wolf_installer/language/{LANGUAGE}.wolfjson", "r").read())["STRINGS"]
+LANG = loads(open(f"./wolf_installer/language/{LANGUAGE}.herlockjson", "r").read())["STRINGS"]
