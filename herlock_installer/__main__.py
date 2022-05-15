@@ -194,4 +194,4 @@ if __name__ == "__main__":
             bilgi(f"[1] {LANG['NO_SUP']}\n[2] {LANG['NO_LOG']}\n\n[3] {LANG['NO_PMAUTO']}\n\n[4] {LANG['NO_DEFAULTNAME']}\n\n[5] {LANG['CLOSE']}")
             
             Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4", "5"], default="5")
-        basarili(LANG['GÖRÜŞÜRÜZ'])
+        basarili(LANG['SEEYOU'])
